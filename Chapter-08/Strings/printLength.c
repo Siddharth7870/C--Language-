@@ -22,4 +22,6 @@ int printLength( char name[] )
     }
     printf("\n");
 
+    return count-1;
+
 }
