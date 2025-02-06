@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-int printName( name ); 
+void printName(char name[] );
+
 int main()
 {
     char name[20];
@@ -9,4 +10,9 @@ int main()
 
     return 0;
 
+}
+
+void printName( char name[] )
+{
+    
 }
