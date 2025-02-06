@@ -59,7 +59,7 @@
 <br>
 -> n = size
 <br>
--> file = stdion( standard input )
+-> file = stdin( standard input )
 
 
 
