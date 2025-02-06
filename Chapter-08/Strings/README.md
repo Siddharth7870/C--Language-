@@ -25,6 +25,6 @@
 -> char name[] = "SIDDHARTH";
 <BR>
 ->   name :
--        [ S ] [ I ] [ D ] [ D ] [ H ] [ A ] [ R ] [ T ] [ H ] [ \0 ] 
+[ S ] [ I ] [ D ] [ D ] [ H ] [ A ] [ R ] [ T ] [ H ] [ \0 ] 
 -<br> <pre>    200   201   202   203   204   205   206   207   208   209 </pre>
 
