@@ -2,8 +2,9 @@
 
 int main()
 {
-
+    char name[20];
     
+
     return 0;
 
 }
