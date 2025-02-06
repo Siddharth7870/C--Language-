@@ -9,6 +9,8 @@ int main()
     char name[100];
     fgets( name , 100 , stdin );
 
+    printf("Lenght is : %d ");
+
 
     return 0;
 }
