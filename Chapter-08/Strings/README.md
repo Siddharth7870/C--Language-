@@ -1,5 +1,5 @@
 #    ----------------->  Strings <------------------
-<br>
+
 * Strings : A character array terminated by a '\0' ( null character )
 -           null character denotes string termination.
 
@@ -21,12 +21,12 @@
 <br>
 <br>
 # What Happens in Memory ?
-<br>
+
 -> char name[] = {'S,'I','D','D','H','A','R','T','H','\0'};
 -> OR
 -> char name[] = "SIDDHARTH";
 <BR>
--> name :
+-> <pre>name :
 -        [ S ] [ I ] [ D ] [ D ] [ H ] [ A ] [ R ] [ T ] [ H ] [ \0 ] 
--<br><pre>  200   201   202   203   204   205   206   207   208   209 </pre>
+-<br>       200   201   202   203   204   205   206   207   208   209 </pre>
 
