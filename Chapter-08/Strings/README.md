@@ -37,4 +37,13 @@
 <br>
 -> printf( " %s " , Name);
 
+# -----------------> IMPORTANT <--------------
+-> scanf() cannot input multi- word wtrings with spaces : 
+<br>
+-> Here, 
+<br>
+-> gets() & puts() come into picture
+<br>
+-> gets( ) -> fgets()
+
 

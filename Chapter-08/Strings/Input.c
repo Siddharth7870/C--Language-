@@ -8,7 +8,7 @@ int main()
     printf("Enter your name: ");
     scanf("%s",name);
 
-    printName(name);
+    printf("Your name is: %s",name );
 
     return 0;
 
