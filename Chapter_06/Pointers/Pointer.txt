@@ -1,0 +1,50 @@
+>>>>>>>>>>>>>>>>>>>>>>> POINTERS :<<<<<<<<<<<<<<<<<<<<<<<
+
+-->> A Variabe that stores the memorty address of another variable .
+
+Memory[  age [ 22 ]   []  []  ptr [ 2010 ]      ]
+>>>>>>>>>>>>> 2010 >>>>>>>>>>>>>>>> 2013 <<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>> address <<<<<<<<<<<<<<<   
+
+--->> Syntax :- <<<<<
+-- : int age = 22;
+-- : int *ptr = &age; // ptr a variable that's age of address stores
+-- : int _age = *ptr; // _age a new variable stor *ptr this address iner value.
+
+--->> * ->>Starix( value of at address). -->> & ->And(address of ).
+
+Memory[  age [ 22 ]   []  []  ptr [ 2010 ]      ]
+>>>>>>>>>>>>> 2010 >>>>>>>>>>>>>>>> 2013 <<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>> address <<<<<<<<<<<<<<<  
+
+>>>>>>>>>>> Declaring Pointers <<<<<<<<<<<
+>>>>> int *ptr; <<<<
+>>>>> float *ptr; <<<
+>>>>> char *ptr; <<<<
+
+>>>>>>>>>>> Format Specifier <<<<<<<<
+>>>>>> printf("%p",&age); <<<<<<<< >>Memory address print.          [ %p ] :->> Hexadecimal value.
+>>>>>> printf( "%p" ,ptr); <<<<<<            [ %u ] :->> Normal number value.( Unsigned int )
+>>>>>> printf( "%p", &ptr); <<<<<
+>>>>>> printf( " %u" ,&age); <<<<
+
+>>>>> printf( " %d " , age ); <<<<< // age of address in value by hold 
+>>>>> printf( " %d " , *ptr ); <<<< // ptr of address in value by hold
+>>>>> printf( " %d " , *(&age)); <<< // age of addres in * value by hold,
+
+>>>>>>>>> Pointer to Pointer <<<<<<<<<
+--> A variable that stroes the memory address of another Pointer
+Memory[  age [ 22 ]   []  []  pptr [ 2013 ]     ptr [ 2010 ]     ]
+>>>>>>>>>>>>> 2010 >>>>>>>>>>>>>>>> 2012 <<<<<<<<<<< 2013 <<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>> address <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>> Pointer to Pointer <<<<<<<<<<<<
+------>>> Syntax <<<----
+>>>>>>> int **pptr; <<<
+>>>>>> char **pptr; <<<<
+>>>>> float **pptr <<<<
+
+
+>>>>>>>>>> Pointer in function call <<<<<<<<
+-->> i : Call by Value :- We pass value of variable as argument.
+-->> ii : Call by Reference :- We pass addres of variable as argument.

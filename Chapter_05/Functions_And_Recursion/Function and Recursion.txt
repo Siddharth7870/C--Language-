@@ -1,0 +1,88 @@
+                 -: function and recursion :-
+functions :- Block of codee that performs particular task
+   Take argument->  Do Work   ->Return result
+*It can be multiple times.
+*Increase code reusability.
+
+                       
+--------------->	Syntax 1
+----------> Function Protoyper/Declaration.
+------------->	  void namaste();
+					 
+--------------->	Syntax 2
+----------->	Function Definition.
+------------->	void namaste()
+-----------------{
+-------------->      printf("Ramanand \n");
+---------------- }
+								  
+------------------->   Syntax 3
+-------------------> Function call
+------------------- > int main()
+--------------------> {
+------------------>       namaste();
+-------------------->     return 0;
+--------------------> }.
+								 
+--------------->  This is outpur -> Ramanand
+						
+                  
+          
+                  
+                  
+                 -: Properties :-
+
+    -> Execution always starts from mani 
+    -> A function gets called directly or indirectly from main
+    -> There can be multiple functions in a program 
+
+                     
+R.3. -: Function Type :-
+ I.Library function :- Special function in built in c. > ex:-scanf(),printf()
+II.User defined :- Declared & defined bu programmer. > ex.void namaste(),hello()
+
+R.4. -: Passing Argument :-
+I. Passing argument :- Function can take value & give some value.
+take :- parameter.
+value :- return value.
+
+void printHello(); <<<<<<<<<<<<< print but not return,
+void printTable(); <<<<<<<<<<<<< print but not return,
+int sum(int a, int b); <<<<<<<<< return value and print,
+ 
+-: Argument                               V/S     Parameter :-
+I. Values that passed in function call            Value in function declaration & definition.
+II.Used to send value                             Used to receive value.
+III.Actual Parameter                              Formal parameter.
+
+-: NOTE :- 
+A.function can only return one value at a times.
+B.Changes to parameters in function don't change the value in calling funtion.
+---> Because a copy of argument is passed to the function.
+
+--: Recursion :-
+--> When a function calls itself,it's called recursion.
+Recursion :- math -> f(x) = x2.
+for x = 2;
+f(f(f(x))) :- f(x) = 4 :->f(f(x)) = 16 :->f(f(f(x))) = 256.
+
+Normal Function Call :-
+--: main <--__> f(x) <--__> y(x).
+
+Recursion Function Call :-
+--: main <--__> f(x) <--__> f(x) <--__>f(x)
+
+-->> Used for recursion funtion :--
+
+* Sum of Natural number --> [ sum( n-1 ) + n ]
+
+* factorial of number --> [ factorial( n-	1) * n ]
+
+------>>> Properties of Recursion <<<-----
+a. Anything that can be done with iteration,can be done with recursion and vice-versa.
+b. Recursion can sometimes give the most simple solotion.
+c. Base Case is the condition which stops recursion.
+
+-->> fibonacci sequence -->> 0,1,1,2,3,5,8,13,21........
+-->> fib( 5 ) = fib( 3 ) + fib( 4 ) -->> 8.
+** fib( n ) = fib( n-1 ) + fib( n-2 ) **
