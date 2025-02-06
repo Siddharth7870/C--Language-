@@ -52,6 +52,14 @@
 -> gets( str ) -> input a string ( even multiword ).
 <br>
 -> puts( str ) -> Output a string.
+<br>
+-> fgets( str , n , file) -> Stop when ( n - 1 ) chars inut or new line is entered.
+<br>
+-> str = name
+<br>
+-> n = size
+<br>
+-> file = stdion( standard input )
 
 
 
