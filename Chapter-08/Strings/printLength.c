@@ -5,6 +5,7 @@
 int main()
 {
     char name[100];
-    
+    fgets( name , 100 , stdin );
+
     return 0;
 }
