@@ -4,5 +4,7 @@
 
 int main()
 {
+    char name[100];
+    
     return 0;
 }
