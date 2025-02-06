@@ -6,5 +6,7 @@ int main()
     puts(canChange);
     canChange = "Hello Siddharth";
     puts(canChange);
+
+    char *cannotChange = "Hello World";
     return 0;
 }
