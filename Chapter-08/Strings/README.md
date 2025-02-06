@@ -9,8 +9,8 @@
 ->             char name[] = "RAMANAND";
 <br>
 <br>
-<h2> Initialising Strings<h2>
-<br>
+# ---> Initialising Strings 
+
 -> char[] = {'S','I','D','D','H','A','R','T','H'};
 -> OR
 -> char[] = "SIDDHARTH";
