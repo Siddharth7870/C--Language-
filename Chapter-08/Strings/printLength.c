@@ -9,7 +9,7 @@ int main()
     char name[100];
     fgets( name , 100 , stdin );
 
-    printf("Lenght is : %d ");
+    printf("Lenght is : %d ",printLength(name));
 
 
     return 0;
