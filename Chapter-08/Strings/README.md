@@ -60,6 +60,19 @@
 -> n = size
 <br>
 -> file = stdin( standard input )
+<br>
+<br>
+
+# ---------------> String using Pointers <----------------
+-> char *str = "Hello World";
+<br>
+-> Store string in memory & the assigned address ins stored in the char pinter  ' str '
+<br>
+-> char *str = "Hello World"; // Can be reinitialized.
+<br>
+-> char str[ ] = "Hello World"; // Cannot be reinitialized.
+
+
 
 
 
