@@ -51,6 +51,7 @@
 <br>
 -> gets( str ) -> input a string ( even multiword ).
 <br>
+-> puts( str ) -> Output a string.
 
 
 
