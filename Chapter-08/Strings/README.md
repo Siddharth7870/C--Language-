@@ -44,5 +44,15 @@
 -> gets( ) & puts( ) come into picture
 <br>
 -> gets( ) -> fgets( )
+<br>
+
+# ------------------> String Functions <---------------
+-> gets( str ) -> Dangerous & Outdated.
+<br>
+-> gets( str ) -> input a string ( even multiword ).
+<br>
+
+
+
 
 
