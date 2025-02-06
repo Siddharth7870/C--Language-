@@ -1,5 +1,4 @@
 #    ----------------->  Strings <------------------
-
 * Strings : A character array terminated by a '\0' ( null character )
 -           null character denotes string termination.
 
@@ -10,7 +9,6 @@
 <br>
 <br>
 # ---> Initialising Strings 
-
 -> char[] = {'S','I','D','D','H','A','R','T','H'};
 -> OR
 -> char[] = "SIDDHARTH";
