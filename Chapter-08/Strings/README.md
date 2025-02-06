@@ -66,7 +66,7 @@
 # ---------------> String using Pointers <----------------
 -> char *str = "Hello World";
 <br>
--> Store string in memory & the assigned address ins stored in the char pinter  ' str '
+-> Store string in memory & the assigned address is stored in the char pinter  ' str '
 <br>
 -> char *str = "Hello World"; // Can be reinitialized.
 <br>
