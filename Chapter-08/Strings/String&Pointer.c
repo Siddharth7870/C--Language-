@@ -7,7 +7,9 @@ int main()
     canChange = "Hello Siddharth";
     puts(canChange);
 
-    char cannotChange = "Hello World";
+    char cannotChange = "Hello Duniya";
+    puts(cannotChange);
+    cannotChange = "Hello India";
     puts(cannotChange);
     return 0;
 }
