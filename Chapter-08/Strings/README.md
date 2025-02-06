@@ -26,5 +26,14 @@
 <BR>
 ->   name :
 [ S ] [ I ] [ D ] [ D ] [ H ] [ A ] [ R ] [ T ] [ H ] [ \0 ] 
--<br> <pre>    200   201   202   203   204   205   206   207   208   209 </pre>
+-<br> <pre>  200 201 202 203 204 205 206 207 208 209 </pre>
+
+# ------------------->  String Format Specifier <--------------------
+->   " %s " ----> For string.
+<br>
+-> For example : 
+-> char Name[] = "Ramanand";
+<br>
+-> printf( " %s " , Name);
+
 
