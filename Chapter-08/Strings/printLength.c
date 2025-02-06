@@ -15,5 +15,6 @@ int main()
 
 int printLength( char name[] )
 {
-   
+    int count = 0;
+    
 }
