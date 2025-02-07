@@ -120,7 +120,7 @@
 -> O/P : Siddharth Gautam
 <br>
 
-# -------------- 4. Stardard Library Functions <----------
+# -------------- 4. Standard Library Functions <----------
 -> 4. strcmp( firStr, secStr) -> Compares Two strings & returns a value.
 <br>
 -> 0 -> string equal.
@@ -140,8 +140,16 @@
 -> O/P : -1
 <br>
 
-# -------------- 5. Stardar Library Functions <---------
+# -------------- 5. Standard Library Functions <---------
 -> 5. strrev( srt ) -> Reverses a string.
+<br>
+-> for example :
+<br>
+-> char str[] = "Hello";
+<br>
+-> printf("Reverse : %s\n " , strrev( str ));
+<br>
+-> O/P : olleH
 
 
 
