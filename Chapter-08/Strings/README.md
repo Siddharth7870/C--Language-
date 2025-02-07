@@ -74,7 +74,7 @@
 <br>
 
 
-#  --------------Standard Library Functions <-------------
+#  ------------- 1. Standard Library Functions <-----------
 -> library for String -> < string.h >
 <br>
 -> library for pow( n,m ) -> < math.h >
@@ -90,6 +90,9 @@
 <br>
 -> output : length of string : 9
 <br>
+
+
+# --------------- Standard Library Functions <-------------
 
 
 
