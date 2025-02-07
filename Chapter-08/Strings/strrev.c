@@ -3,6 +3,6 @@
 
 int main()
 {
-    
+    char str[100] = "Siddharth";
     return 0;
 }
