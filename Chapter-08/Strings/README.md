@@ -129,7 +129,17 @@
 -> positive -> first > second ( ASCII )
 <br>
 -> negative -> first < second ( ASCII )
-
+<br>
+- For example :
+<br>
+-> char firStr[ ] = " Apple";
+<br>
+-> char secStr[ ] = " Banana ";
+<br>
+-> printf( " %d\n ",strcmp( fisStr , secStr) );
+<br>
+-> O/P : -1
+<br>
 
 
 
