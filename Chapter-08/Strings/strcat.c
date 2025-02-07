@@ -7,7 +7,7 @@ int main()
     char sum2[] = "Ramanand";
 
     strcat( sum1, sum2 );
-    
+    puts( sum1 ); // O/P : SiddharthRamanand
     return 0;
 
 }
