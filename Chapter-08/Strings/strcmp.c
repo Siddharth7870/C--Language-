@@ -6,6 +6,7 @@ int main()
     char firStr[] = "Apple";
     char secStr[] = "Banana";
     strcmp(firStr , secStr );
+    puts( firStr );
     return 0;
 
 }
