@@ -3,7 +3,7 @@
 
 int main()
 {   
-
+    char name[100] = "Ramanand";
     return 0;
 
 }
