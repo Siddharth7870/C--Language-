@@ -96,6 +96,14 @@
 -> string of string -> < string.h > 
 <br>
 -> 2. strcpy( newStr , oldStr ) -> Copies value of old string to new string.
+<br>
+-> for example : 
+<br>
+-> char str1[ ] = " Going ";
+-> char str2[ ] = " Coming ";
+-> strcpy( str2, str1 );
+-> puts( str2 );
+<br>
 
 
 
