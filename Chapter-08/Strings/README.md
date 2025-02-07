@@ -80,8 +80,6 @@
 -> library for pow( n,m ) -> < math.h >
 <br>
 <b> 1 strlen( str ) <b>
-
-<br>
 -> count number of characters excluding '\0'
 
 
