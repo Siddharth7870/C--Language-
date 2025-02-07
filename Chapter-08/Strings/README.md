@@ -121,6 +121,15 @@
 -> O/P : Siddharth Gautam
 <br>
 
+# -------------- 4. Stardard Library Functions <----------
+-> 4. strcmp( firStr, secStr) -> Compares Two strings & returns a value.
+<br>
+-> 0 -> string equal.
+<br>
+-> positive -> first > second ( ASCII )
+<br>
+-> negative -> first < second ( ASCII )
+
 
 
 
