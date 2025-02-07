@@ -15,5 +15,7 @@ int main()
         name[i] = ch;
         i++;
     }
+
+    name[i] = '\0';
     return 0;
 }
