@@ -8,7 +8,7 @@ int main()
    //printf("length of name variable for stirng is : %d\n",strlen(name));
    // Or 
     int length = strlen(name);
-    printf("length of string is : %d\n",length);
+    printf("length of string  : %d\n",length);
 
     return 0;   
 }
