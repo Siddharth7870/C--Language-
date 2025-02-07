@@ -105,6 +105,9 @@
 -> puts( str2 );
 <br>
 
+# -------------- 3. Standard Library Functions <----------
+-> 3. strcat( pulas1, pulas2 ) -> concatenates first string with second string.
+
 
 
 
