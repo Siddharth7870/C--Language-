@@ -17,5 +17,6 @@ int main()
     }
 
     name[i] = '\0';
+    puts(name);
     return 0;
 }
