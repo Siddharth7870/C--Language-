@@ -130,7 +130,7 @@
 <br>
 -> negative -> first < second ( ASCII )
 <br>
-- For example :
+->  For example :
 <br>
 -> char firStr[ ] = " Apple";
 <br>
