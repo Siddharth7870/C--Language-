@@ -5,7 +5,10 @@ int main()
 {   
     char name[100] = "Siddharth";
 
-   printf("length of name variable for stirng is : %d\n",strlen(name));
+   //printf("length of name variable for stirng is : %d\n",strlen(name));
+   // Or 
+    int length = strlen(name);
+    printf("length of string is : %d\n",length);
 
     return 0;   
 }
