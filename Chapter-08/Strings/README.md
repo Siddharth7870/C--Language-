@@ -106,7 +106,21 @@
 <br>
 
 # -------------- 3. Standard Library Functions <----------
--> 3. strcat( pulas1, pulas2 ) -> concatenates first string with second string.
+-> 3. strcat( sum1, sum2 ) -> concatenates first string with second string.
+<br>
+-> for example :
+<br>
+-> char sum1[ 100 ] = "Siddharth ";
+<br>
+-> char sum2[ 100 ] = "Gautam";
+<br>
+-> strcat( sum1, sum2 );
+<br>
+-> puts( sum1 );
+<br>
+-> O/P : Siddharth Gautam
+<br>
+
 
 
 
