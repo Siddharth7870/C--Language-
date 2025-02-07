@@ -3,7 +3,8 @@
 
 int main()
 {
-    
+    char firStr[] = "Apple";
+    char secStr[] = "Banana";
     return 0;
 
 }
