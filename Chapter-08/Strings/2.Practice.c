@@ -10,5 +10,10 @@ int main()
     int i = 0;
 
     while( ch != '\n')
+    {
+        scanf("%c",&ch);
+        name[i] = ch;
+        i++;
+    }
     return 0;
 }
