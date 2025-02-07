@@ -79,8 +79,24 @@
 <br>
 -> library for pow( n,m ) -> < math.h >
 <br>
-<b> 1 strlen( str ) <b>
+<b> 1. strlen( str ) <b>
 -> count number of characters excluding '\0'
+<br>
+-> for example : 
+<br>
+-> char name[100] = "Siddharth";
+<br>
+-> printf( "length of string : %d\t",strlen( name ));
+<br>
+-> output : length of string : 9
+<br>
+
+
+
+
+
+
+
 
 
 
