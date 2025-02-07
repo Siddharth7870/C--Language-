@@ -92,8 +92,10 @@
 <br>
 
 
-# --------------- Standard Library Functions <-------------
-
+# ----------- 2. Standard Library Functions <-------------
+-> string of string -> < string.h > 
+<br>
+-> 2. strcpy( newStr , oldStr ) -> Copies value of old string to new string.
 
 
 
