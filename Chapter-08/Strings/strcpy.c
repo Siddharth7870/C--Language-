@@ -3,7 +3,8 @@
 
 int main()
 {   
-    char name[100] = "Ramanand";
+    char Go[100] = "Going";
+
     return 0;
 
 }
