@@ -140,6 +140,9 @@
 -> O/P : -1
 <br>
 
+# -------------- 5. Stardar Library Functions <---------
+-> 5. strrev( srt ) -> Reverses a string.
+
 
 
 
