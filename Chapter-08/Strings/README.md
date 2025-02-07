@@ -71,8 +71,17 @@
 -> char *str = "Hello World"; // Can be reinitialized.
 <br>
 -> char str[ ] = "Hello World"; // Cannot be reinitialized.
+<br>
 
 
+#  --------------Standard Library Functions <-------------
+-> library for String -> < string.h >
+<br>
+-> library for pow( n,m ) -> < math.h >
+<br>
+<h2> 1 strlen( str ) <h2>
+<br>
+-> count number of characters excluding '\0'
 
 
 
