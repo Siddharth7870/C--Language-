@@ -8,6 +8,7 @@ void slice(char sliced[ ], int n, int m);
 int main()
 {
     char sliced[ 100 ] = "Hellow World";
+    slice(sliced , 3, 7); // O/P = low W
 
     return 0;
 }
