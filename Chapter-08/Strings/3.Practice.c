@@ -12,3 +12,8 @@ int main()
 
     return 0;
 }
+
+void salting( char password[])
+{
+    
+}
