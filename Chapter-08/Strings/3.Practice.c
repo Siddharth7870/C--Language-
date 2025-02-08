@@ -15,5 +15,6 @@ int main()
 
 void salting( char password[])
 {
-    
+    char salt[ ] = "123";
+    char newPassword[ 200 ];
 }
