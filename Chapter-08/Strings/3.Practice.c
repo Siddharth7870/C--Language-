@@ -9,6 +9,7 @@ int main()
 {   
     char password[ 100 ];
     scanf("%s",password);
+    salting(password);
 
     return 0;
 }
