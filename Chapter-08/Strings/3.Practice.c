@@ -17,4 +17,8 @@ void salting( char password[])
 {
     char salt[ ] = "123";
     char newPassword[ 200 ];
+
+    strcpy( newPassword, password);// newpassword = ram
+    strcat( newPassword, salt ); // newpsssord = ram123
+
 }
