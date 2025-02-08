@@ -8,6 +8,7 @@ int countVowel( char vowel[] );
 int main()
 {   
     char vowel[ ] = "Hello World";
+    countVowel( vowel );
 
     return 0;
 }
