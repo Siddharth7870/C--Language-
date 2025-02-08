@@ -5,6 +5,7 @@
 
 int main()
 {
-    char sliced[ 100 ];
+    char sliced[ 100 ] = "Hellow World";
+    
     return 0;
 }
