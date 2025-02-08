@@ -20,5 +20,5 @@ void salting( char password[])
 
     strcpy( newPassword, password);// newpassword = ram
     strcat( newPassword, salt ); // newpsssord = ram123
-
+    puts(newPassword);
 }
