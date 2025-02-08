@@ -8,7 +8,7 @@ int countVowel( char vowel[] );
 int main()
 {   
     char vowel[ ] = "Hello World";
-    countVowel( vowel );
+   printf("vowel are : %d",countVowel( vowel ) );
 
     return 0;
 }
