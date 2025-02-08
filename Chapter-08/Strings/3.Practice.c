@@ -5,6 +5,7 @@
 
 int main()
 {   
-    char
+    char password[ 100 ];
+    scanf("%s",password);
     return 0;
 }
