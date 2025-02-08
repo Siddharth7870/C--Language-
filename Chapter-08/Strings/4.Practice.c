@@ -12,12 +12,15 @@ int main()
     return 0;
 }
 
-void slice( char sliced[ ] , int n , int m )
+void slice( char sliced[ ] , int n , int m )// n & m are valid value
 {
     char newSliced[ 200 ];
     int j = 0;
     for( int i = n; i<=m; i++, j++ )
     {
-        new
+        newSliced[ j ] = sliced[ i ];
     }
+    newSliced[ j ] = '\0';
+    puts( newSliced );
+
 }
