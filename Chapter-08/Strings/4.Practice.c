@@ -14,5 +14,10 @@ int main()
 
 void slice( char sliced[ ] , int n , int m )
 {
-    
+    char newSliced[ 200 ];
+    int j = 0;
+    for( int i = n; i<=m; i++, j++ )
+    {
+        new
+    }
 }
