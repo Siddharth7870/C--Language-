@@ -5,5 +5,6 @@
 
 int main()
 {
+    char sliced[ 100 ];
     return 0;
 }
