@@ -45,3 +45,17 @@
 -> 2000---------2100----------2104 
 <br>
 -> structures are stored in contiguous memory location.
+<br>
+
+# ------------ Array of Structures -------------
+-> struct student ECE[ 100 ];
+<br>
+-> struct student CEO[ 100 ];
+<br>
+-> struct student   IT[ 100 ];
+
+<br>
+-> ACCESS 
+<br>
+-> IT[ 0 ].roll = 200;
+-> IT[ 0 ].cgpa = 8.3;
