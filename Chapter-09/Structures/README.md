@@ -30,3 +30,18 @@
 
     return 0;
 }
+<br>
+
+# ----------- Structures in Memory -------------
+-> struct student {
+.                    char  name[ 100 ];
+.                    int roll_no;
+.                    float cgpa;
+.
+.                  };
+<br>
+-> name         roll              cgpa
+<br>
+-> 2000         2100              2104 
+<br>       
+-> structures are stored in contiguous memory location.
