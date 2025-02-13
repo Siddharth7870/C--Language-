@@ -10,6 +10,8 @@ int main()
     char str[ ] = "Apnacollege";
     char ch = 'a';
 
+    checkChar( str, ch);
+
     return 0;
 }
 
