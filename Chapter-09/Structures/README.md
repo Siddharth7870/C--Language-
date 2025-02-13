@@ -75,3 +75,10 @@
 -> struct student *ptr; ----------> int *ptr;
 <br>
 -> ptr = &s1; --------------------> ptr = &a;
+<br>
+
+# -------------------- Arrow Operator ---------------
+<b> Arrow : </b>
+-> ( *ptr ).code   <--------->  ptr->code
+<b> pointer </b> 
+-> s1.roll        <---------> ( *ptr ).roll
