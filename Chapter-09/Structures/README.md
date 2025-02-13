@@ -21,8 +21,7 @@
 <br>                 float cgpa;
 <br>               };
 <br>
-- int main()
-<br>
+-> int main()
 {
 <br>
      struct student s1;
