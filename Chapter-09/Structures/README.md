@@ -79,6 +79,9 @@
 
 # -------------------- Arrow Operator ---------------
 <b> Arrow : </b>
+<br>
 -> ( *ptr ).code   <--------->  ptr->code
-<b> pointer </b> 
+<br>
+<b> pointer : </b> 
+<br>
 -> s1.roll        <---------> ( *ptr ).roll
