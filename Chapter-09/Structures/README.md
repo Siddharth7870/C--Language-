@@ -16,32 +16,33 @@
 
 # --------------- Syntax ----------------
 -> struct student{
-.                    char name[ 100 ];
-.                    int roll;
-.                    float cgpa;
-.                };
+<br>                 char name[ 100 ];
+<br>                 int roll;
+<br>                 float cgpa;
+<br>               };
 <br>
 - int main()
+<br>
 {
-    struct student s1;
-    s1.cgpa = 7.8;
+<br>
+     struct student s1;
+<br> s1.cgpa = 7.8;
+<br> printf(" Your cgpa : %f ",s1.cgpa );
 
-    printf(" Your cgpa : %f ",s1.cgpa );
-
-    return 0;
+<br>   return 0;
 }
 <br>
 
 # ----------- Structures in Memory -------------
 -> struct student {
-.                    char  name[ 100 ];
-.                    int roll_no;
-.                    float cgpa;
-.
-.                  };
+<br>                  char  name[ 100 ];
+<br>                  int roll_no;
+<br>                  float cgpa;
+<br>
+<br>                 };
 <br>
 -> name---------roll----------cgpa
 <br>
 -> 2000---------2100----------2104 
-<br>       
+<br>
 -> structures are stored in contiguous memory location.
