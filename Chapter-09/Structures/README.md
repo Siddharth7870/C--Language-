@@ -40,8 +40,8 @@
 .
 .                  };
 <br>
--> name         roll              cgpa
+-> name---------roll----------cgpa
 <br>
--> 2000         2100              2104 
+-> 2000---------2100----------2104 
 <br>       
 -> structures are stored in contiguous memory location.
