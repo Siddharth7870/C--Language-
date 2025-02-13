@@ -67,3 +67,11 @@
 -> struct student s2 = { "Ramanand" , 242243, 8.8 };
 <br>
 -> struct student s3 = { 0 };
+<br>
+
+# -------------- Pointers to Structures ------------
+-> struct student s1; ------------> int a;
+<br>
+-> struct student *ptr; ----------> int *ptr;
+<br>
+-> ptr = &s1; --------------------> ptr = &a;
