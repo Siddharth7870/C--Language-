@@ -59,3 +59,11 @@
 <br>
 -> IT[ 0 ].roll = 200;
 -> IT[ 0 ].cgpa = 8.3;
+<br>
+
+# ------------- Initializig Structures ------------
+-> struct student s1 = { "Siddharth" , 242241, 8.9};
+<br>
+-> struct student s2 = { "Ramanand" , 242243, 8.8 };
+<br>
+-> struct student s3 = { 0 };
