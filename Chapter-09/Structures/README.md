@@ -85,3 +85,12 @@
 <b> pointer : </b> 
 <br>
 -> s1.roll        <---------> ( *ptr ).roll
+
+<br>
+
+# ------------- Passing structure to function -----------
+-> // Function prototype
+<br>
+-> void printInfo( struct student s1 );
+<br>
+-> --------------- int ---------- a
