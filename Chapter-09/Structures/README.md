@@ -94,3 +94,16 @@
 -> void printInfo( struct student s1 );
 <br>
 -> ------------------- int ---------- a
+<br>
+
+# ------------------- Typedpef keyword -------------------
+-> used to create alias for data types.
+<br>
+-> typedef struct ComputerEngineeringStudent{
+     char name[ 100 ];
+     int roll;
+     float cgpa;
+} coe;
+<br>
+-> coe student1;
+
