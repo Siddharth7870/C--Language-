@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<string.h>
+//#include<string.h>
 
 // Q.2.-> Take a string input from the user using %c .
 
